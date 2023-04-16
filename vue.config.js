@@ -15,12 +15,5 @@ module.exports = {
       }
     }
   },
-  configureWebpack: {
-    resolve: {
-      alias: {
-        'axios$': 'axios/dist/axios.js'
-      }
-    }
-  }
 };
 

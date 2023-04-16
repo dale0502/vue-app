@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import axios from "axios";
 
 export default {
   data() {
@@ -19,7 +18,7 @@ export default {
     };
   },
   mounted() {
-    axios
+    this.$https
       .get("/api/users")
       .then((response) => {
         console.log(response);
